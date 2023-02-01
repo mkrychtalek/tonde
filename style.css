@@ -2,3 +2,38 @@ body {
     background-color: #2f2f2f;
     background: fixed;
 }
+
+body{
+    background-image: url('./assets/tonde.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.soon{
+    color: #fff;
+    font-family: Rubik;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.crt{
+    color: #fff;
+    font-family: Space Grotesk;
+    text-align: center;
+    font-size: 20px;
+}
+
+a.crt{
+    color: #fff;
+    text-decoration: underline;
+}
+
+a.crt:hover{
+    text-decoration: none;
+}

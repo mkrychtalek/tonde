@@ -1,142 +1,46 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-    <link rel="icon" type="image/x-icon" href="https://cdn.makopog.com/images/favicon.png">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tonde | MakoPog</title>
+    <meta charset="UTF-8">
+    <title>Tonde - Coming back soon...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/cdn-cgi/apps/head/EQXHC5JIosOz532pvgG73Pd0zG0.js"></script><link rel="icon" href="./assets/favicon.png">
+
+    <!-- Import .css -->
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
+
+    <!-- Import AOS .css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>-->
+
+    <!-- Meta Tags -->
+    <meta name="description" content="Tonde - Coming back soon..." />
+    <meta property="og:site_name" content="Tonde">
+    <meta property="og:url" content="https://www.krychtalek.eu/">
+    <meta property="og:title" content="Tonde">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Tonde - Coming back soon...">
+    <meta property="og:image" content="./assets/favicon.png">
+    <meta property="og:image:secure_url" content="./assets/favicon.png">
+    <meta property="twitter:image" content="./assets/favicon.png">
   </head>
-    <style>
-
-        body {
-            font-family: 'Poppins', sans-serif;
-        }        
-
-        .copyright {
-          color: #bcbcbc;
-          text-align: center;
-          font-size: 16px;
-        }
-
-        .mobileShow {
-            display: none;
-        }
-
-        .mobileHide { 
-            display: inline;
-        }
-
-        .shrek {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          align-content: center;
-        }
-
-    </style>
-  <body>
-    <div class='popup'>
-      <div class='cnt223'>
-        <h1>Information</h1>
-      <p>
-      This website was cancelled.
-      <br>
-      <br>
-      <br>
-      <a href='https://makopog.com' class='close'>Close</a>
-      </p>
-      </div>
-      </div>
-
-
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
-<style type="text/css">
-#overlay {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-color: #000000;
-filter:alpha(opacity=70);
--moz-opacity:0.7;
--khtml-opacity: 0.7;
-opacity: 0.7;
-z-index: 100;
-display: none;
-}
-.cnt223 a{
-text-decoration: none;
-}
-.popup{
-width: 100%;
-margin: 0 auto;
-display: none;
-position: fixed;
-text-align: center;
-z-index: 101;
-color: #ffffff;
-}
-.cnt223{
-min-width: 600px;
-width: 600px;
-min-height: 150px;
-margin: 100px auto;
-background: #2c2f31;
-position: relative;
-z-index: 103;
-padding: 15px 35px;
-border-radius: 5px;
-box-shadow: 0 2px 5px #000;
-}
-.cnt223 p{
-clear: both;
-    color: #ffffff;
-    /* text-align: justify; */
-    font-size: 20px;
-    font-family: sans-serif;
-}
-.cnt223 p a{
-color: #d91900;
-font-weight: bold;
-}
-.cnt223 .x{
-float: right;
-height: 35px;
-left: 22px;
-position: relative;
-top: -25px;
-width: 34px;
-}
-.cnt223 .x:hover{
-cursor: pointer;
-}
-</style>
-<script type='text/javascript'>
-$(function(){
-var overlay = $('<div id="overlay"></div>');
-overlay.show();
-overlay.appendTo(document.body);
-$('.popup').show();
-$('.close').click(function(){
-$('.popup').hide();
-overlay.appendTo(document.body).remove();
-});
-
-
- 
-
-$('.x').click(function(){
-$('.popup').hide();
-overlay.appendTo(document.body).remove();
-return false;
-});
-});
-</script>
-<script src="https://kit.fontawesome.com/83e7d06230.js" crossorigin="anonymous"></script>
-  </body>
-</html>
+<body>
+  <h1 class="soon" data-aos="fade-down">Coming back soon...</h1>
+  <p data-aos="fade-up" class="crt">Developed by <a class="crt" href="//www.krychtalek.eu">Krychtalek.eu</a>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
