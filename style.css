@@ -1,39 +1,74 @@
-body {
-    background-color: #2f2f2f;
-    background: fixed;
-}
-
 body{
-    background-image: url('./assets/tonde.gif');
-    background-size: cover;
-    
-    
-    
-    height: 100vh;
-    padding:0;
-    margin:0;
-}
-
-.soon{
-    color: #fff;
-    font-family: Rubik;
     text-align: center;
-    font-size: 40px;
-    margin-top: 50px;
-}
-
-.crt{
-    color: #fff;
     font-family: Space Grotesk;
-    text-align: center;
-    font-size: 20px;
+    background: #111;
+    background-size: cover;
 }
 
-a.crt{
+*{
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+
+/* ===== Scrollbar CSS ===== */
+
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #5f422c #111111;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #111111;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #5f422c;
+    border-radius: 10px;
+    border: 3px none #ffffff;
+  }
+
+
+.title{
+    margin-top: 50px;
     color: #fff;
+}
+
+.link{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
     text-decoration: underline;
 }
 
-a.crt:hover{
+.link:hover{
+    color: #5F422C;
+}
+
+/* Dev by link */
+p.made-by{
+    color: #fff;
+    margin-top: 100px;
+    font-family: Space Grotesk;
+}
+
+a.made-by{
+    color: #fff;
+    font-family: Space Grotesk;
+}
+
+a.made-by:hover{
     text-decoration: none;
 }
+
+.warning{
+    color: #991212;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
