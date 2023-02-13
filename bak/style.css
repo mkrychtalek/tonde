@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+    font-family: Space Grotesk;
+    background: #111;
+    background-size: cover;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+
+/* ===== Scrollbar CSS ===== */
+
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #5f422c #111111;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #111111;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #5f422c;
+    border-radius: 10px;
+    border: 3px none #ffffff;
+  }
+
+
+.title{
+    margin-top: 50px;
+    color: #fff;
+}
+
+.link{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.link:hover{
+    color: #5F422C;
+}
+
+/* Dev by link */
+p.made-by{
+    color: #fff;
+    margin-top: 100px;
+    font-family: Space Grotesk;
+}
+
+a.made-by{
+    color: #fff;
+    font-family: Space Grotesk;
+}
+
+a.made-by:hover{
+    text-decoration: none;
+}
+
+.warning{
+    color: #991212;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
