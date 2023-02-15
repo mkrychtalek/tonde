@@ -1,0 +1,19 @@
+{
+    "redirects": [
+      {
+        "source": "/lipidy",
+        "destination": "/lipidy/",
+        "statusCode": 301
+      },
+      {
+        "source": "/videa",
+        "destination": "/videa/",
+        "statusCode": 301
+      },
+      {
+        "source": "/manzelky",
+        "destination": "/manzelky/",
+        "statusCode": 301
+      }
+    ]
+  }
