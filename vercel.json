@@ -1,6 +1,11 @@
 {
     "redirects": [
       {
+        "source": "/",
+        "destination": "/downtime/",
+        "statusCode": 301
+      },
+      {
         "source": "/lipidy",
         "destination": "/lipidy/",
         "statusCode": 301
