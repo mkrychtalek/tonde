@@ -2,7 +2,7 @@
     "redirects": [
       {
         "source": "/",
-        "destination": "/downtime/",
+        "destination": "/notavailable/",
         "statusCode": 301
       },
       {
