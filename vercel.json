@@ -1,24 +1,29 @@
 {
     "redirects": [
-      {
+      { 
         "source": "/",
-        "destination": "/notavailable/",
-        "statusCode": 301
+        "destination": "/unavailable/", 
+        "permanent": true
+      },
+      { 
+        "source": "/unavailable",
+        "destination": "/unavailable/", 
+        "permanent": true
       },
       {
         "source": "/lipidy",
         "destination": "/lipidy/",
-        "statusCode": 301
+        "permanent": true
       },
       {
         "source": "/videa",
         "destination": "/videa/",
-        "statusCode": 301
+        "permanent": true
       },
       {
         "source": "/manzelky",
         "destination": "/manzelky/",
-        "statusCode": 301
+        "permanent": true
       }
     ]
   }
