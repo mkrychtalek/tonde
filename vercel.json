@@ -1,13 +1,8 @@
 {
     "redirects": [
-      { 
+      {
         "source": "/",
-        "destination": "/unavailable/", 
-        "permanent": true
-      },
-      { 
-        "source": "/unavailable",
-        "destination": "/unavailable/", 
+        "destination": "/lipidy/",
         "permanent": true
       },
       {
@@ -22,7 +17,7 @@
       },
       {
         "source": "/manzelky",
-        "destination": "/manzelky/",
+        "destination": "/lipidy/",
         "permanent": true
       }
     ]
