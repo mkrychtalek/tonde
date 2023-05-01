@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    font-family: Space Grotesk;
+    font-family: Tenorite, sans-serif;
     background: #111;
     background-size: cover;
 }
@@ -38,29 +38,28 @@ body{
 .title{
     margin-top: 50px;
     color: #fff;
+    font-size: 60px;
 }
 
 .link{
     color: #fff;
     font-weight: bold;
     font-size: 20px;
-    text-decoration: underline;
-}
-
-.link:hover{
-    color: #5F422C;
+    background: #5F422C;
+    padding: 14px 16px;
+    border-radius: 50px;
 }
 
 /* Dev by link */
 p.made-by{
     color: #fff;
     margin-top: 100px;
-    font-family: Space Grotesk;
+    font-family: DM Sans, sans-serif;
 }
 
 a.made-by{
     color: #fff;
-    font-family: Space Grotesk;
+    font-family: DM Sans, sans-serif;
 }
 
 a.made-by:hover{

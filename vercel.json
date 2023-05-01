@@ -1,13 +1,18 @@
 {
     "redirects": [
       {
-        "source": "/",
-        "destination": "/lipidy/",
+        "source": "/lipidy",
+        "destination": "/fotky/",
         "permanent": true
       },
       {
-        "source": "/lipidy",
-        "destination": "/lipidy/",
+        "source": "/lipidy/",
+        "destination": "/fotky/",
+        "permanent": true
+      },
+      {
+        "source": "/fotky",
+        "destination": "/fotky/",
         "permanent": true
       },
       {
