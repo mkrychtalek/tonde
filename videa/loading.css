@@ -1,0 +1,29 @@
+.se-pre-con{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #1C1B1F;
+    text-align: center;
+}
+
+.spinner {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: radial-gradient(farthest-side,#936c4c 95%,#0000) 50% 1.8px/21.1px 21.1px no-repeat,
+    radial-gradient(farthest-side,#0000 calc(100% - 24.6px),rgba(147,108,76,0.1) 0);
+    animation: spinner-aur408 1s infinite linear;
+    margin: 0 auto;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+
+@keyframes spinner-aur408 {
+    to {
+        transform: rotate(1turn);
+    }
+}

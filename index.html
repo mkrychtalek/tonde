@@ -1,60 +1,77 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <title>Lipide</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/favicon.png">
+<head>
+  <meta charset="UTF-8">
+  <title>Lipidy - Lipide</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/favicon.png">
 
-    <!-- Import .css -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navbar.css">
+  <!-- Import .css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="navbar-pc.css">
+  <link rel="stylesheet" href="navbar-mobile.css">
+  <link rel="stylesheet" href="loading.css">
 
-    <!-- Import AOS .css -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Import AOS .css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="https://fonts.cdnfonts.com/css/tenorite" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/dm-sans" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
 
-    <!-- Icons -->
-    <link href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" rel="stylesheet">
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>-->
 
-    <!-- Meta Tags -->
-    <meta name="description" content="Lipide" />
-    <meta property="og:site_name" content="Lipide">
-    <meta property="og:url" content="https://lipide.krychtalek.eu">
-    <meta property="og:title" content="Lipide">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="Lipide">
-    <meta property="og:image" content="./assets/favicon.png">
-    <meta property="og:image:secure_url" content="./assets/favicon.png">
-    <meta property="twitter:image" content="./assets/favicon.png">
-  </head>
+
+  <!-- Icons -->
+  <link href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" rel="stylesheet">
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>-->
+
+  <!-- Meta Tags -->
+  <meta name="description" content="Lipide" />
+  <meta property="og:site_name" content="Lipide">
+  <meta property="og:url" content="https://lipide.krychtalek.eu">
+  <meta property="og:title" content="Lipide">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Lipide">
+  <meta property="og:image" content="./assets/favicon.png">
+  <meta property="og:image:secure_url" content="./assets/favicon.png">
+  <meta property="twitter:image" content="./assets/favicon.png">
+</head>
 <body>
-  <nav data-aos="fade-down">
-    <a class="logo" href="#">Lipide</a>
-    <input type="checkbox" id="click">
-    <label for="click" class="menu-btn">
-      <i class="fas fa-bars"></i>
-    </label>
-    <ul>
-      <li><a class="active" href="#">Domů</a></li>
-      <li><a href="./fotky">Fotky</a></li>
-      <li><a href="./videa">Videa</a></li>
-    </ul>
+<div class="se-pre-con">
+  <div class="spinner"></div>
+</div>
+<nav id="pc">
+  <ul>
+    <span class="bg">
+      <li><a href="#" class="active"><i class="fas fa-home"></i> Domů</a></li>
+      <li><a href="#modelovani"><i class="fas fa-image"></i> Fotky</a></li>
+      <li><a href="#slicovani"><i class="fas fa-circle-play"></i> Videa</a></li>
+    </span>
+  </ul>
+</nav>
+<footer>
+  <nav id="mobile">
+    <a href="#" class="active"><i class="fas fa-home"></i> Úvod</a>
+    <a href="./fotky"><i class="fas fa-image"></i> Fotky</a>
+    <a href="./videa"><i class="fas fa-circle-play"></i> Videa</a>
   </nav>
-  <h1 class="title">Lipide</h1><br><br><br>
-  <a class="link" href="./fotky">Fotky</a><br><br><br>
-  <a class="link" href="./videa">Videa</a>
-  <p class="made-by">Made by <span class="made-by"><a class="made-by" href="//www.krychtalekdev.com">KrychtalekDev.com</a></span></p>
-  <p class="warning">Web není spojen s žádnou fyzickou osobou.</p>
-  <script src="navbar.js" type="text/javascript"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+</footer>
+<h1 class="title">Lipide</h1><br><br>
+<a class="button" href="./fotky"><i class="fas fa-image"></i> Fotky</a><br><br><br>
+<a class="button" href="./videa"><i class="fas fa-circle-play"></i> Videa</a>
+<p class="made-by">Vytvořil <span class="made-by"><a class="made-by" href="//krychtalekdev.com">Martin Krychtálek</a></span></p>
+<p class="warning">Web není spojen s žádnou fyzickou osobou.</p>
+<script src="navbar.js" type="text/javascript"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js" type="text/javascript"></script>
+<script>
+  $(window).load(function() {
+    $(".se-pre-con").fadeOut("slow");;
+  });
+</script>
+<script type="text/javascript">
+  AOS.init();
+</script>
 </body>

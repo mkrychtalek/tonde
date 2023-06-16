@@ -8,14 +8,15 @@
 
     <!-- Import .css -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="navbar-pc.css">
+    <link rel="stylesheet" href="navbar-mobile.css">
 
     <!-- Import AOS .css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href="https://fonts.cdnfonts.com/css/tenorite" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/dm-sans" rel="stylesheet">
+   <!--<link href="https://fonts.cdnfonts.com/css/inter" rel="stylesheet">-->
+    <link href="https://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
 
     <link href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" rel="stylesheet">
 
@@ -31,20 +32,28 @@
     <meta property="twitter:image" content="./assets/favicon.png">
   </head>
 <body>
-  <button onclick="topFunction()" id="myBtn" title="Zpět na začátek"><i class="fa-duotone fa-arrow-up-to-line" aria-hidden="true"></i></button>
-  <nav data-aos="fade-down">
-    <a class="logo" href="//lipide.krychtalek.eu">Lipide</a>
-    <input type="checkbox" id="click">
-    <label for="click" class="menu-btn">
-      <i class="fas fa-bars"></i>
-    </label>
-    <ul>
-      <li><a href="//lipide.krychtalek.eu">Domů</a></li>
-      <li><a href="//lipide.krychtalek.eu/fotky">Fotky</a></li>
-      <li><a class="active" href="#">Videa</a></li>
-    </ul>
+<div class="se-pre-con">
+  <div class="spinner"></div>
+</div>
+<nav id="pc">
+  <ul>
+    <span class="bg">
+      <li><a href="/"><i class="fas fa-home"></i> Domů</a></li>
+      <li><a href="/fotky"><i class="fas fa-image"></i> Fotky</a></li>
+      <li><a href="#" class="active"><i class="fas fa-circle-play"></i> Videa</a></li>
+    </span>
+  </ul>
+</nav>
+<footer>
+  <nav id="mobile">
+    <a href="/"><i class="fas fa-home"></i> Úvod</a>
+    <a href="/fotky" ><i class="fas fa-image"></i> Fotky</a>
+    <a href="#" class="active"><i class="fas fa-circle-play"></i> Videa</a>
   </nav>
+</footer>
+  <button onclick="topFunction()" id="myBtn" title="Zpět na začátek"><i class="fa-duotone fa-arrow-up-to-line" aria-hidden="true"></i></button>
   <h1 class="title">Videa</h1>
+<div class="videa">
   <video width="400" controls>
     <source src="./assets/1.mp4" type="video/mp4">
     Váš prohlížeč nepodporuje HTML video. Navštivte tuto stránku pomocí jiného prohlížeče.
@@ -61,10 +70,11 @@
     <source src="./assets/4.mp4" type="video/mp4">
     Váš prohlížeč nepodporuje HTML video. Navštivte tuto stránku pomocí jiného prohlížeče.
   </video>
+</div>
   <br>
   <br>
   <a href="#" class="top-link"><i class="fa-duotone fa-arrow-up"></i> Zpět na začátek</a>
-  <p class="made-by">Developed by <span class="made-by"><a class="made-by" href="//www.krychtalekdev.com">KrychtalekDev.com</a></span></p>
+  <p class="made-by">Vytvořil <span class="made-by"><a class="made-by" href="//krychtalekdev.com">Martin Krychtálek</a></span></p>
   <p class="warning">Web není spojen s žádnou fyzickou osobou.</p>
   <script src="navbar.js" type="text/javascript"></script>
   <script src="top.js" type="text/javascript"></script>
